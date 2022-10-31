@@ -1,0 +1,23 @@
+<!DOCTYPE html> 
+<html>
+        <head><title>Skye MacEwan- Lab7</title> 
+    <script type="text/javascript">
+    function showImage(){ document.getElementById('loadingImage').style.visibility="visible"; } 
+     </script> 
+     <style> 
+     div { position: relative; 
+             animation-name: example; 
+            animation-duration: 3s; 
+            animation-delay: 2s; 
+            animation-iteration-count: 2; 
+            animation-direction: alternate; 
+            visibility:hidden; } 
+    @keyframes example {0% { left:0px; top:0px;} 25% {left:200px; top:0px;} 50% {left:400px; top:0px;} 75% {left:600px; top:0px;} 100% {left:800px; top:0px;} } 
+     </style> 
+     </head> 
+     <body> 
+        <input type="button" value="Start" onclick="showImage();"/> 
+        <div >
+             <img id="loadingImage" src="guy-walking.gif" width="400" /></div> 
+            </body> 
+            </html>
